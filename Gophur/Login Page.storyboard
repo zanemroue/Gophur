@@ -26,7 +26,9 @@
                                             <constraint firstAttribute="height" constant="40" id="6lJ-BM-Tff"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Sign Up"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Sign Up">
+                                            <color key="baseForegroundColor" systemColor="labelColor"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <segue destination="IA8-iO-vEV" kind="show" id="a4R-BE-EsA"/>
                                         </connections>
@@ -37,7 +39,11 @@
                                             <constraint firstAttribute="height" constant="40" id="6KF-gD-3vz"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Log In"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Log In"/>
+                                            </attributedString>
+                                        </buttonConfiguration>
                                         <connections>
                                             <segue destination="x1P-bs-yvn" kind="show" id="gb9-nZ-qMF"/>
                                         </connections>
@@ -46,7 +52,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="AbC-tr-ric"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor"/>
                         <constraints>
                             <constraint firstItem="M5R-Fl-QcX" firstAttribute="leading" secondItem="AbC-tr-ric" secondAttribute="leading" constant="40" id="GGO-JY-n0a"/>
                             <constraint firstItem="AbC-tr-ric" firstAttribute="trailing" secondItem="M5R-Fl-QcX" secondAttribute="trailing" constant="40" id="W8j-Gq-JoP"/>
@@ -297,6 +303,9 @@
     <resources>
         <image name="camera.fill" catalog="system" width="128" height="93"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

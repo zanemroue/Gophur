@@ -60,10 +60,10 @@
 		D65F58252933171C00DE7F2F /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D65F582C2933227400DE7F2F /* ViewController.swift */,
 				D65F58232933171300DE7F2F /* SignUpViewController.swift */,
 				D65F58262933173700DE7F2F /* LoginViewController.swift */,
 				D65F58282933174B00DE7F2F /* HomeViewController.swift */,
-				D65F582C2933227400DE7F2F /* ViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
