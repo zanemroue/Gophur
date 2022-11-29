@@ -290,7 +290,7 @@
         <!--Navigation Controller-->
         <scene sceneID="dOv-3v-nLM">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="ofK-yD-Dj8" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="Home" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="ofK-yD-Dj8" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="AeY-Vp-ITc">
                         <autoresizingMask key="autoresizingMask"/>
