@@ -22,7 +22,7 @@
 		D6C2F9892930813C008146D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C2F9882930813C008146D3 /* Assets.xcassets */; };
 		D6C2F98C2930813C008146D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C2F98B2930813C008146D3 /* Preview Assets.xcassets */; };
 		D6C2F9942930824E008146D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6C2F9932930824E008146D3 /* GoogleService-Info.plist */; };
-		D6C2F99D29309035008146D3 /* Login Page.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C2F99C29309035008146D3 /* Login Page.storyboard */; };
+		D6C2F99D29309035008146D3 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C2F99C29309035008146D3 /* Home.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 		D6C2F98B2930813C008146D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D6C2F98D2930813C008146D3 /* Gophur.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gophur.entitlements; sourceTree = "<group>"; };
 		D6C2F9932930824E008146D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		D6C2F99C29309035008146D3 /* Login Page.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Login Page.storyboard"; sourceTree = "<group>"; };
+		D6C2F99C29309035008146D3 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 				D65F58252933171C00DE7F2F /* View Controllers */,
 				D6C2F9842930813B008146D3 /* GophurApp.swift */,
 				D6C2F9862930813B008146D3 /* ContentView.swift */,
-				D6C2F99C29309035008146D3 /* Login Page.storyboard */,
+				D6C2F99C29309035008146D3 /* Home.storyboard */,
 				D6C2F9882930813C008146D3 /* Assets.xcassets */,
 				D6C2F9932930824E008146D3 /* GoogleService-Info.plist */,
 				D6C2F98D2930813C008146D3 /* Gophur.entitlements */,
@@ -178,7 +178,7 @@
 			files = (
 				D6C2F98C2930813C008146D3 /* Preview Assets.xcassets in Resources */,
 				D6C2F9892930813C008146D3 /* Assets.xcassets in Resources */,
-				D6C2F99D29309035008146D3 /* Login Page.storyboard in Resources */,
+				D6C2F99D29309035008146D3 /* Home.storyboard in Resources */,
 				D6C2F9942930824E008146D3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
