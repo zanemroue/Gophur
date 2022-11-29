@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A51DFA1E2936C30C0085B5B7 /* SchedulingUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51DFA1D2936C30C0085B5B7 /* SchedulingUI.swift */; };
 		D65F58242933171300DE7F2F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F58232933171300DE7F2F /* SignUpViewController.swift */; };
 		D65F58272933173700DE7F2F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F58262933173700DE7F2F /* LoginViewController.swift */; };
 		D65F58292933174B00DE7F2F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F58282933174B00DE7F2F /* HomeViewController.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A51DFA1D2936C30C0085B5B7 /* SchedulingUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulingUI.swift; sourceTree = "<group>"; };
 		D65F58232933171300DE7F2F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D65F58262933173700DE7F2F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D65F58282933174B00DE7F2F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A51DFA182936C17C0085B5B7 /* Scheduling */ = {
+			isa = PBXGroup;
+			children = (
+				A51DFA1D2936C30C0085B5B7 /* SchedulingUI.swift */,
+			);
+			path = Scheduling;
+			sourceTree = "<group>";
+		};
 		D65F58252933171C00DE7F2F /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				D6C2F9832930813B008146D3 /* Gophur */,
+				A51DFA182936C17C0085B5B7 /* Scheduling */,
 				D6C2F9822930813B008146D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -195,6 +206,7 @@
 				D65F58272933173700DE7F2F /* LoginViewController.swift in Sources */,
 				D65F58242933171300DE7F2F /* SignUpViewController.swift in Sources */,
 				D6C2F9872930813B008146D3 /* ContentView.swift in Sources */,
+				A51DFA1E2936C30C0085B5B7 /* SchedulingUI.swift in Sources */,
 				D6C2F9852930813B008146D3 /* GophurApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
