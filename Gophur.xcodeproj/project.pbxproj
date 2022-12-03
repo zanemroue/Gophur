@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69F99669293B267800D3C0D4 /* DatePickerCalender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F99668293B267800D3C0D4 /* DatePickerCalender.swift */; };
+		69F9966B293B273A00D3C0D4 /* FormattedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F9966A293B273A00D3C0D4 /* FormattedDate.swift */; };
+		69F99670293B293C00D3C0D4 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 69F9966F293B293C00D3C0D4 /* Algorithms */; };
+		69F99672293B2E5D00D3C0D4 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F99671293B2E5D00D3C0D4 /* CalendarView.swift */; };
+		69F99675293BABC400D3C0D4 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 69F99674293BABC400D3C0D4 /* FSCalendar */; };
 		D65F58242933171300DE7F2F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F58232933171300DE7F2F /* SignUpViewController.swift */; };
 		D65F58272933173700DE7F2F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F58262933173700DE7F2F /* LoginViewController.swift */; };
 		D65F58292933174B00DE7F2F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F58282933174B00DE7F2F /* HomeViewController.swift */; };
@@ -26,6 +31,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69F99668293B267800D3C0D4 /* DatePickerCalender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerCalender.swift; sourceTree = "<group>"; };
+		69F9966A293B273A00D3C0D4 /* FormattedDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattedDate.swift; sourceTree = "<group>"; };
+		69F99671293B2E5D00D3C0D4 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		D65F58232933171300DE7F2F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D65F58262933173700DE7F2F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D65F58282933174B00DE7F2F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -46,9 +54,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D65F583829332CB900DE7F2F /* FirebaseFirestoreSwift in Frameworks */,
+				69F99670293B293C00D3C0D4 /* Algorithms in Frameworks */,
 				D65F583229332CB900DE7F2F /* FirebaseDatabase in Frameworks */,
 				D65F583629332CB900DE7F2F /* FirebaseFirestoreCombine-Community in Frameworks */,
 				D65F583029332CB900DE7F2F /* FirebaseAuth in Frameworks */,
+				69F99675293BABC400D3C0D4 /* FSCalendar in Frameworks */,
 				D65F583429332CB900DE7F2F /* FirebaseFirestore in Frameworks */,
 				D65F583A29332CB900DE7F2F /* FirebaseStorage in Frameworks */,
 			);
@@ -90,7 +100,10 @@
 				D65F58252933171C00DE7F2F /* View Controllers */,
 				D6C2F9842930813B008146D3 /* GophurApp.swift */,
 				D6C2F9862930813B008146D3 /* ContentView.swift */,
+				69F99671293B2E5D00D3C0D4 /* CalendarView.swift */,
+				69F9966A293B273A00D3C0D4 /* FormattedDate.swift */,
 				D6C2F99C29309035008146D3 /* Home.storyboard */,
+				69F99668293B267800D3C0D4 /* DatePickerCalender.swift */,
 				D6C2F9882930813C008146D3 /* Assets.xcassets */,
 				D6C2F9932930824E008146D3 /* GoogleService-Info.plist */,
 				D6C2F98D2930813C008146D3 /* Gophur.entitlements */,
@@ -130,6 +143,8 @@
 				D65F583529332CB900DE7F2F /* FirebaseFirestoreCombine-Community */,
 				D65F583729332CB900DE7F2F /* FirebaseFirestoreSwift */,
 				D65F583929332CB900DE7F2F /* FirebaseStorage */,
+				69F9966F293B293C00D3C0D4 /* Algorithms */,
+				69F99674293BABC400D3C0D4 /* FSCalendar */,
 			);
 			productName = Gophur;
 			productReference = D6C2F9812930813B008146D3 /* Gophur.app */;
@@ -161,6 +176,8 @@
 			mainGroup = D6C2F9782930813B008146D3;
 			packageReferences = (
 				D65F582E29332CB900DE7F2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				69F9966E293B293C00D3C0D4 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				69F99673293BABC300D3C0D4 /* XCRemoteSwiftPackageReference "FSCalendar" */,
 			);
 			productRefGroup = D6C2F9822930813B008146D3 /* Products */;
 			projectDirPath = "";
@@ -190,9 +207,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F99669293B267800D3C0D4 /* DatePickerCalender.swift in Sources */,
 				D65F582D2933227400DE7F2F /* ViewController.swift in Sources */,
+				69F9966B293B273A00D3C0D4 /* FormattedDate.swift in Sources */,
 				D65F58292933174B00DE7F2F /* HomeViewController.swift in Sources */,
 				D65F58272933173700DE7F2F /* LoginViewController.swift in Sources */,
+				69F99672293B2E5D00D3C0D4 /* CalendarView.swift in Sources */,
 				D65F58242933171300DE7F2F /* SignUpViewController.swift in Sources */,
 				D6C2F9872930813B008146D3 /* ContentView.swift in Sources */,
 				D6C2F9852930813B008146D3 /* GophurApp.swift in Sources */,
@@ -389,6 +409,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		69F9966E293B293C00D3C0D4 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		69F99673293BABC300D3C0D4 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		D65F582E29332CB900DE7F2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -400,6 +436,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		69F9966F293B293C00D3C0D4 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69F9966E293B293C00D3C0D4 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		69F99674293BABC400D3C0D4 /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69F99673293BABC300D3C0D4 /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
 		D65F582F29332CB900DE7F2F /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D65F582E29332CB900DE7F2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

@@ -11,9 +11,30 @@ import UIKit
 
 struct ContentView: View {
     
-    
+    @State var selectedDate: Date = Date()
     var body: some View {
-        storyboardview().edgesIgnoringSafeArea(.all)
+        //storyboardview().edgesIgnoringSafeArea(.all)
+        TabView {
+            DatePickerCalendar()
+              .tabItem {
+                Label("DatePicker Calendar", systemImage: "calendar.badge.plus")
+                    .padding()
+              }
+            CalendarView().ignoresSafeArea()
+              .tabItem {
+                Label("Fullscreen Calendar", systemImage: "calendar")
+                    .padding()
+              }
+        }
+        .onAppear {
+            let appearance = UITabBarAppearance()
+            appearance.backgroundColor = UIColor(Color.purple.opacity(0.2))
+            appearance.shadowColor = UIColor(.purple)
+            appearance.backgroundEffect = UIBlurEffect(style: .extraLight)
+            UITabBar.appearance().standardAppearance = appearance
+            UITabBar.appearance().scrollEdgeAppearance = appearance
+        }
+        
     }
     
     
@@ -35,4 +56,5 @@ struct ContentView: View {
         }
     }
 }
-//test test
+
+
