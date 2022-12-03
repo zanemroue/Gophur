@@ -67,6 +67,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A51DFA182936C17C0085B5B7 /* Scheduling */ = {
+			isa = PBXGroup;
+			children = (
+				A51DFA1D2936C30C0085B5B7 /* SchedulingUI.swift */,
+			);
+			path = Scheduling;
+			sourceTree = "<group>";
+		};
 		D65F58252933171C00DE7F2F /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				D6C2F9832930813B008146D3 /* Gophur */,
+				A51DFA182936C17C0085B5B7 /* Scheduling */,
 				D6C2F9822930813B008146D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -215,6 +224,7 @@
 				69F99672293B2E5D00D3C0D4 /* CalendarView.swift in Sources */,
 				D65F58242933171300DE7F2F /* SignUpViewController.swift in Sources */,
 				D6C2F9872930813B008146D3 /* ContentView.swift in Sources */,
+				A51DFA1E2936C30C0085B5B7 /* SchedulingUI.swift in Sources */,
 				D6C2F9852930813B008146D3 /* GophurApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
