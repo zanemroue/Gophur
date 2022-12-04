@@ -8,7 +8,15 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-
+    
+    @IBOutlet weak var homeScroll: UIScrollView!
+    
+    @IBOutlet weak var scrollStack: UIStackView!
+    
+    @IBOutlet weak var postButton: UIButton!
+    
+    @IBOutlet weak var profileButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

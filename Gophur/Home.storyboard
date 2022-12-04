@@ -277,7 +277,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ByW-uv-aeg">
-                                        <rect key="frame" x="0.0" y="-290" width="393" height="649"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="649"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </stackView>
                                 </subviews>
@@ -289,6 +289,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="G5F-mj-rH8"/>
+                    <connections>
+                        <outlet property="homeScroll" destination="BCi-pR-2ZH" id="zNC-tF-aPf"/>
+                        <outlet property="postButton" destination="jAA-Oz-sHL" id="hqR-Gs-1jX"/>
+                        <outlet property="profileButton" destination="TM1-5b-zfl" id="MGq-6O-Pc2"/>
+                        <outlet property="scrollStack" destination="ByW-uv-aeg" id="DaL-hP-h7k"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tcc-pJ-7fB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -312,6 +318,7 @@
             <point key="canvasLocation" x="867.93893129770993" y="-95.070422535211279"/>
         </scene>
     </scenes>
+    <color key="tintColor" systemColor="labelColor"/>
     <resources>
         <image name="camera.fill" catalog="system" width="128" height="93"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
