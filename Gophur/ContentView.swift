@@ -17,6 +17,16 @@ struct ContentView: View {
             FriendsView().tabItem { Image(systemName: "person.3.fill") }.tag(1)
             Text("Feed").tabItem { Image(systemName: "list.bullet") }.tag(2)
             Text("Profile").tabItem { Image(systemName: "person.fill") }.tag(3)
+            DatePickerCalendar()
+              .tabItem {
+                Label("DatePicker Calendar", systemImage: "calendar.badge.plus")
+                      .padding().tag(4)
+              }
+            CalendarView().ignoresSafeArea()
+              .tabItem {
+                Label("Fullscreen Calendar", systemImage: "calendar")
+                      .padding().tag(5)
+              }
         }.onAppear {
             let appearance = UITabBarAppearance()
             appearance.backgroundColor = UIColor(Color.purple.opacity(0.2))
@@ -26,26 +36,6 @@ struct ContentView: View {
             UITabBar.appearance().scrollEdgeAppearance = appearance
         }
         //storyboardview().edgesIgnoringSafeArea(.all)
-        TabView {
-            DatePickerCalendar()
-              .tabItem {
-                Label("DatePicker Calendar", systemImage: "calendar.badge.plus")
-                    .padding()
-              }
-            CalendarView().ignoresSafeArea()
-              .tabItem {
-                Label("Fullscreen Calendar", systemImage: "calendar")
-                    .padding()
-              }
-        }
-        .onAppear {
-            let appearance = UITabBarAppearance()
-            appearance.backgroundColor = UIColor(Color.purple.opacity(0.2))
-            appearance.shadowColor = UIColor(.purple)
-            appearance.backgroundEffect = UIBlurEffect(style: .extraLight)
-            UITabBar.appearance().standardAppearance = appearance
-            UITabBar.appearance().scrollEdgeAppearance = appearance
-        }
         
     }
     
