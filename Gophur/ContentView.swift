@@ -10,9 +10,21 @@ import Firebase
 import UIKit
 
 struct ContentView: View {
-    
+    @State var activeTab:Int = 1//variable for selected tab user makes default is set to first option
     @State var selectedDate: Date = Date()
     var body: some View {
+        TabView(selection: $activeTab) {//tab view for friends, profile and feed page
+            FriendsView().tabItem { Image(systemName: "person.3.fill") }.tag(1)
+            Text("Feed").tabItem { Image(systemName: "list.bullet") }.tag(2)
+            Text("Profile").tabItem { Image(systemName: "person.fill") }.tag(3)
+        }.onAppear {
+            let appearance = UITabBarAppearance()
+            appearance.backgroundColor = UIColor(Color.purple.opacity(0.2))
+            appearance.shadowColor = UIColor(.purple)
+            appearance.backgroundEffect = UIBlurEffect(style: .extraLight)
+            UITabBar.appearance().standardAppearance = appearance
+            UITabBar.appearance().scrollEdgeAppearance = appearance
+        }
         //storyboardview().edgesIgnoringSafeArea(.all)
         TabView {
             DatePickerCalendar()
