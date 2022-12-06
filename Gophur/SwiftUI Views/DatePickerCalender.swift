@@ -9,6 +9,7 @@ import SwiftUI
 
 struct DatePickerCalendar: View {
     @State var selectedDate = Date()
+    var omitTime: Bool = true
     
     var body: some View {
         VStack {
@@ -22,6 +23,16 @@ struct DatePickerCalendar: View {
 //             Also demo one with time component
             
             Divider().frame(height: 1).background(.gray.opacity(0.4))
+            
+            let str = (selectedDate.formatted(date: .abbreviated, time:
+                                                omitTime ? .omitted : .standard))
+            
+            NavigationView{
+                NavigationLink(destination: ClickedDay()){
+                    Text("Click Here To Make an\nAppointment on: " + str)
+                }
+            }
+
         }
     }
 }
