@@ -16,7 +16,8 @@ struct ContentView: View {
         TabView(selection: $activeTab) {//tab view for friends, profile and feed page
             FriendsView().tabItem { Image(systemName: "person.3.fill") }.tag(1)
             Text("Feed").tabItem { Image(systemName: "list.bullet") }.tag(2)
-            Text("Profile").tabItem { Image(systemName: "person.fill") }.tag(3)
+            ProfileView().tabItem { Image(systemName:
+                "person.fill") }.tag(3)
             DatePickerCalendar()
               .tabItem {
                 Label("DatePicker Calendar", systemImage: "calendar.badge.plus")

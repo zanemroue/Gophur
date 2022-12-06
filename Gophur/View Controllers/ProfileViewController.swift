@@ -3,7 +3,7 @@
 //  Gophur
 //
 //  Created by Hilario Gonzalez on 12/4/22.
-//
+//  Mistake see Profile View under SwiftUI views!
 
 import UIKit
 

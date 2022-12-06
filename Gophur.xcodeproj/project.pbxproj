@@ -19,6 +19,7 @@
 		A55DC49F293ECF00003F6CF4 /* ConfirmationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55DC49E293ECF00003F6CF4 /* ConfirmationPage.swift */; };
 		ADD683FF293D46F7007C6355 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD683FE293D46F7007C6355 /* ProfileViewController.swift */; };
 		ADD68401293D4712007C6355 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD68400293D4712007C6355 /* NewPostViewController.swift */; };
+		ADD68403293EE59F007C6355 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD68402293EE59F007C6355 /* ProfileView.swift */; };
 		D65F58242933171300DE7F2F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F58232933171300DE7F2F /* SignUpViewController.swift */; };
 		D65F58272933173700DE7F2F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F58262933173700DE7F2F /* LoginViewController.swift */; };
 		D65F58292933174B00DE7F2F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F58282933174B00DE7F2F /* HomeViewController.swift */; };
@@ -48,6 +49,7 @@
 		A55DC49E293ECF00003F6CF4 /* ConfirmationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationPage.swift; sourceTree = "<group>"; };
 		ADD683FE293D46F7007C6355 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		ADD68400293D4712007C6355 /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		ADD68402293EE59F007C6355 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		D65F58232933171300DE7F2F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D65F58262933173700DE7F2F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D65F58282933174B00DE7F2F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				69F99668293B267800D3C0D4 /* DatePickerCalender.swift */,
 				69F99671293B2E5D00D3C0D4 /* CalendarView.swift */,
 				69129865293D7D6000C5CA2B /* FriendsView.swift */,
+				ADD68402293EE59F007C6355 /* ProfileView.swift */,
 			);
 			path = "SwiftUI Views";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				69F9966B293B273A00D3C0D4 /* FormattedDate.swift in Sources */,
 				A55DC49F293ECF00003F6CF4 /* ConfirmationPage.swift in Sources */,
 				D65F58292933174B00DE7F2F /* HomeViewController.swift in Sources */,
+				ADD68403293EE59F007C6355 /* ProfileView.swift in Sources */,
 				D65F58272933173700DE7F2F /* LoginViewController.swift in Sources */,
 				ADD683FF293D46F7007C6355 /* ProfileViewController.swift in Sources */,
 				69F99672293B2E5D00D3C0D4 /* CalendarView.swift in Sources */,
