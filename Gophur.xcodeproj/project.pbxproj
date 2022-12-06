@@ -20,6 +20,7 @@
 		ADD683FF293D46F7007C6355 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD683FE293D46F7007C6355 /* ProfileViewController.swift */; };
 		ADD68401293D4712007C6355 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD68400293D4712007C6355 /* NewPostViewController.swift */; };
 		ADD68403293EE59F007C6355 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD68402293EE59F007C6355 /* ProfileView.swift */; };
+		D60662E2293FA7F10094AAE3 /* BusinessSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60662E1293FA7F10094AAE3 /* BusinessSignUpViewController.swift */; };
 		D65F58242933171300DE7F2F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F58232933171300DE7F2F /* SignUpViewController.swift */; };
 		D65F58272933173700DE7F2F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F58262933173700DE7F2F /* LoginViewController.swift */; };
 		D65F58292933174B00DE7F2F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F58282933174B00DE7F2F /* HomeViewController.swift */; };
@@ -50,6 +51,7 @@
 		ADD683FE293D46F7007C6355 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		ADD68400293D4712007C6355 /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
 		ADD68402293EE59F007C6355 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D60662E1293FA7F10094AAE3 /* BusinessSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSignUpViewController.swift; sourceTree = "<group>"; };
 		D65F58232933171300DE7F2F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D65F58262933173700DE7F2F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D65F58282933174B00DE7F2F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				D65F58282933174B00DE7F2F /* HomeViewController.swift */,
 				ADD683FE293D46F7007C6355 /* ProfileViewController.swift */,
 				ADD68400293D4712007C6355 /* NewPostViewController.swift */,
+				D60662E1293FA7F10094AAE3 /* BusinessSignUpViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				ADD68401293D4712007C6355 /* NewPostViewController.swift in Sources */,
 				D65F582D2933227400DE7F2F /* ViewController.swift in Sources */,
 				69129861293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift in Sources */,
+				D60662E2293FA7F10094AAE3 /* BusinessSignUpViewController.swift in Sources */,
 				69F9966B293B273A00D3C0D4 /* FormattedDate.swift in Sources */,
 				A55DC49F293ECF00003F6CF4 /* ConfirmationPage.swift in Sources */,
 				D65F58292933174B00DE7F2F /* HomeViewController.swift in Sources */,

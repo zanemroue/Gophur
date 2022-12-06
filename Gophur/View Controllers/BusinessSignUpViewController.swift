@@ -1,15 +1,15 @@
 //
-//  SignUpViewController.swift
+//  BusinessSignUpViewController.swift
 //  Gophur
 //
-//  Created by Jack Edelist on 2022-11-26.
+//  Created by Jack Edelist on 2022-12-06.
 //
 
 import UIKit
-import FirebaseAuth
 import Firebase
+import FirebaseAuth
 
-class SignUpViewController: UIViewController {
+class BusinessSignUpViewController: UIViewController {
     
     @IBOutlet weak var EmailTextField: UITextField!
     @IBOutlet weak var UsernameTextField: UITextField!
@@ -17,30 +17,25 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var SignUpButton: UIButton!
     @IBOutlet weak var ErrorLabel: UILabel!
     @IBOutlet weak var BackButton: UIButton!
-        
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view.
-        
-        setUpElements()
     }
     
-    func setUpElements() {
-        ErrorLabel.alpha = 0
-    }
-    
+
     /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
-     }
-     */
-    
-    //method for validating fields; returns nil if valid, error message if invalid
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
     func validateFields() -> String? {
         //all fields filled in
         if EmailTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
@@ -112,4 +107,9 @@ class SignUpViewController: UIViewController {
             }
         } // end else
     }
+}
+
+    
+    
+    
 }

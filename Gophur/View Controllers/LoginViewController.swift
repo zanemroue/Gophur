@@ -19,6 +19,9 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var ErrorLabel: UILabel!
     
+    @IBOutlet weak var BackButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
