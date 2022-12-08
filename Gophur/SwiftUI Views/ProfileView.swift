@@ -6,8 +6,8 @@
 //
 
 import SwiftUI
-struct user: Identifiable{
-    var id:UUID
+struct user: Identifiable{                                         //Do not delete: contributed to business profile view and connecting frontend to backend as well as 
+    var id:UUID                                                    //routing buttons. can't commit from my PC because I don't have Xcode on windows - Amruth Niranjan
     var name:String
     var friends:Int
     var avatar:String
