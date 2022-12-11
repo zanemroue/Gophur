@@ -9,10 +9,6 @@ import UIKit
 import FSCalendar
 import SwiftUI
 
-import SwiftUI
-import UIKit
-import FSCalendar
-
 struct CalendarView: View {
 
     @State var selectedDate: Date = Date()

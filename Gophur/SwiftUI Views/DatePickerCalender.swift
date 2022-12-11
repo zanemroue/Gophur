@@ -12,6 +12,7 @@ struct DatePickerCalendar: View {
     var omitTime: Bool = true
     
     var body: some View {
+        NavigationView{
         VStack {
             FormattedDate(selectedDate: selectedDate, omitTime: true)
             
@@ -27,7 +28,7 @@ struct DatePickerCalendar: View {
             let str = (selectedDate.formatted(date: .abbreviated, time:
                                                 omitTime ? .omitted : .standard))
             
-            NavigationView{
+            
                 NavigationLink(destination: ClickedDay()){
                     Text("Click Here To Make an\nAppointment on: " + str)
                 }

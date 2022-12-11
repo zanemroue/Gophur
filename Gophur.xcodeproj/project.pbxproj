@@ -10,6 +10,13 @@
 		69129861293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69129860293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift */; };
 		69129863293C2BB700C5CA2B /* PostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69129862293C2BB700C5CA2B /* PostHeaderTableViewCell.swift */; };
 		69129866293D7D6000C5CA2B /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69129865293D7D6000C5CA2B /* FriendsView.swift */; };
+		69DB85F0294106FF00E0095A /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB85EF294106FE00E0095A /* PostCell.swift */; };
+		69DB85F7294107E400E0095A /* BusinessProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB85F6294107E400E0095A /* BusinessProfileHeader.swift */; };
+		69DB85FB2941082600E0095A /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB85FA2941082600E0095A /* PostViewModel.swift */; };
+		69DB85FF29423D4500E0095A /* AppointmentScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB85FE29423D4400E0095A /* AppointmentScheduler.swift */; };
+		69DB860129423F0300E0095A /* AppointmentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB860029423F0300E0095A /* AppointmentListView.swift */; };
+		69DB864329424B4200E0095A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB864229424B4200E0095A /* MapView.swift */; };
+		69DB86852945738F00E0095A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB86842945738F00E0095A /* Post.swift */; };
 		69F99669293B267800D3C0D4 /* DatePickerCalender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F99668293B267800D3C0D4 /* DatePickerCalender.swift */; };
 		69F9966B293B273A00D3C0D4 /* FormattedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F9966A293B273A00D3C0D4 /* FormattedDate.swift */; };
 		69F99670293B293C00D3C0D4 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 69F9966F293B293C00D3C0D4 /* Algorithms */; };
@@ -43,6 +50,13 @@
 		69129860293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPreviewTableViewCell.swift; sourceTree = "<group>"; };
 		69129862293C2BB700C5CA2B /* PostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		69129865293D7D6000C5CA2B /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		69DB85EF294106FE00E0095A /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		69DB85F6294107E400E0095A /* BusinessProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessProfileHeader.swift; sourceTree = "<group>"; };
+		69DB85FA2941082600E0095A /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		69DB85FE29423D4400E0095A /* AppointmentScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentScheduler.swift; sourceTree = "<group>"; };
+		69DB860029423F0300E0095A /* AppointmentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentListView.swift; sourceTree = "<group>"; };
+		69DB864229424B4200E0095A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		69DB86842945738F00E0095A /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		69F99668293B267800D3C0D4 /* DatePickerCalender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerCalender.swift; sourceTree = "<group>"; };
 		69F9966A293B273A00D3C0D4 /* FormattedDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattedDate.swift; sourceTree = "<group>"; };
 		69F99671293B2E5D00D3C0D4 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
@@ -106,11 +120,32 @@
 			path = "SwiftUI Views";
 			sourceTree = "<group>";
 		};
+		69DB85F12941076100E0095A /* Business Profile */ = {
+			isa = PBXGroup;
+			children = (
+				69DB85EF294106FE00E0095A /* PostCell.swift */,
+				69DB85F6294107E400E0095A /* BusinessProfileHeader.swift */,
+				69DB85FA2941082600E0095A /* PostViewModel.swift */,
+				69DB86842945738F00E0095A /* Post.swift */,
+			);
+			path = "Business Profile";
+			sourceTree = "<group>";
+		};
+		69DB864129424B1B00E0095A /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				69DB864229424B4200E0095A /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		A55DC49B293EBD95003F6CF4 /* Scheduling UIS */ = {
 			isa = PBXGroup;
 			children = (
 				A55DC49C293EBDA3003F6CF4 /* ClickedDay.swift */,
 				A55DC49E293ECF00003F6CF4 /* ConfirmationPage.swift */,
+				69DB85FE29423D4400E0095A /* AppointmentScheduler.swift */,
+				69DB860029423F0300E0095A /* AppointmentListView.swift */,
 			);
 			path = "Scheduling UIS";
 			sourceTree = "<group>";
@@ -148,6 +183,8 @@
 		D6C2F9832930813B008146D3 /* Gophur */ = {
 			isa = PBXGroup;
 			children = (
+				69DB864129424B1B00E0095A /* Map */,
+				69DB85F12941076100E0095A /* Business Profile */,
 				A55DC49B293EBD95003F6CF4 /* Scheduling UIS */,
 				69129864293D7D2C00C5CA2B /* SwiftUI Views */,
 				D65F58252933171C00DE7F2F /* View Controllers */,
@@ -259,10 +296,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A55DC49D293EBDA3003F6CF4 /* ClickedDay.swift in Sources */,
+				69DB864329424B4200E0095A /* MapView.swift in Sources */,
 				69129866293D7D6000C5CA2B /* FriendsView.swift in Sources */,
+				69DB86852945738F00E0095A /* Post.swift in Sources */,
 				69F99669293B267800D3C0D4 /* DatePickerCalender.swift in Sources */,
+				69DB85FF29423D4500E0095A /* AppointmentScheduler.swift in Sources */,
 				ADD68401293D4712007C6355 /* NewPostViewController.swift in Sources */,
 				D65F582D2933227400DE7F2F /* ViewController.swift in Sources */,
+				69DB85F0294106FF00E0095A /* PostCell.swift in Sources */,
 				69129861293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift in Sources */,
 				D60662E2293FA7F10094AAE3 /* BusinessSignUpViewController.swift in Sources */,
 				69F9966B293B273A00D3C0D4 /* FormattedDate.swift in Sources */,
@@ -273,7 +314,10 @@
 				ADD683FF293D46F7007C6355 /* ProfileViewController.swift in Sources */,
 				69F99672293B2E5D00D3C0D4 /* CalendarView.swift in Sources */,
 				D65F58242933171300DE7F2F /* SignUpViewController.swift in Sources */,
+				69DB85FB2941082600E0095A /* PostViewModel.swift in Sources */,
+				69DB860129423F0300E0095A /* AppointmentListView.swift in Sources */,
 				69129863293C2BB700C5CA2B /* PostHeaderTableViewCell.swift in Sources */,
+				69DB85F7294107E400E0095A /* BusinessProfileHeader.swift in Sources */,
 				D6C2F9872930813B008146D3 /* ContentView.swift in Sources */,
 				D6C2F9852930813B008146D3 /* GophurApp.swift in Sources */,
 			);
