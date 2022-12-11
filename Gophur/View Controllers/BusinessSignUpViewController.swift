@@ -11,14 +11,20 @@ import FirebaseAuth
 
 class BusinessSignUpViewController: UIViewController {
     
+    
     @IBOutlet weak var EmailTextField: UITextField!
+    
+    
+    @IBOutlet weak var AddressTextField: UITextField!
+    
     @IBOutlet weak var UsernameTextField: UITextField!
     @IBOutlet weak var PasswordTextField: UITextField!
     @IBOutlet weak var SignUpButton: UIButton!
     @IBOutlet weak var ErrorLabel: UILabel!
     @IBOutlet weak var BackButton: UIButton!
+    @IBOutlet weak var PhoneTextField: UITextField!
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -40,7 +46,10 @@ class BusinessSignUpViewController: UIViewController {
         //all fields filled in
         if EmailTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
             UsernameTextField.text?.trimmingCharacters(in:  .whitespacesAndNewlines) == "" ||
-            PasswordTextField.text?.trimmingCharacters(in:  .whitespacesAndNewlines) == "" {
+            PasswordTextField.text?.trimmingCharacters(in:  .whitespacesAndNewlines) == "" ||
+            AddressTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            PhoneTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == ""
+        {
             return "Please fill in all fields."
         }
         
@@ -80,6 +89,8 @@ class BusinessSignUpViewController: UIViewController {
             let email = EmailTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             let username = UsernameTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             let password = PasswordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let address = AddressTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let phone = PhoneTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             
             //create the user
             Auth.auth().createUser(withEmail: email, password: password) { (result, err) in
@@ -92,9 +103,9 @@ class BusinessSignUpViewController: UIViewController {
                     self.showError("Error creating user")
                 }
                 else {
-                    //user was created, store username
+                    //user was created, store details
                     let db = Firestore.firestore()
-                    db.collection("users").addDocument(data: ["username": username, "uid": result!.user.uid]) { (error) in
+                    db.collection("businesses").addDocument(data: ["username": username, "uid": result!.user.uid, "address": address, "phone": phone]) { (error) in
                         
                         if error != nil {
                             //error storing info
@@ -112,4 +123,4 @@ class BusinessSignUpViewController: UIViewController {
     
     
     
-}
+
