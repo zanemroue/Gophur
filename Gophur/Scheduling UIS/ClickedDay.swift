@@ -19,7 +19,7 @@ struct ClickedDay: View {
     ]
     
     var body: some View {
-        
+    NavigationView{
         VStack(spacing: 0){
                    Picker("Select a time", selection: $selection) {
                        ForEach(times, id: \.self) {
@@ -28,7 +28,7 @@ struct ClickedDay: View {
                    }
                    .pickerStyle(.menu)
             
-            NavigationView{
+            
                 NavigationLink(destination: ConfirmationPage()){
                     Text("Confirm \(selection)?")
                         .font(.title2)
