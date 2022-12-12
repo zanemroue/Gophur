@@ -39,6 +39,7 @@ struct ContentView: View {
             UITabBar.appearance().standardAppearance = appearance
             UITabBar.appearance().scrollEdgeAppearance = appearance
         }
+        //enable to view login page
         //storyboardview().edgesIgnoringSafeArea(.all)
         
     }
@@ -51,9 +52,10 @@ struct ContentView: View {
     }
     
     
+    //struct for viewing login page
     struct storyboardview: UIViewControllerRepresentable {
         func makeUIViewController(context: Context) -> some UIViewController {
-            let storyboard = UIStoryboard(name: "Home", bundle: Bundle.main)
+            let storyboard = UIStoryboard(name: "LoginSignup", bundle: Bundle.main)
             let controller = storyboard.instantiateViewController(identifier: "Home")
             return controller
         }
