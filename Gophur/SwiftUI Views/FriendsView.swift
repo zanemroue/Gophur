@@ -32,7 +32,14 @@ struct FriendsView: View {
     }
 
     func loadFriends() {
-        // Get the user's contacts
+        let mockFriends = [//mock friends to allow to run on simulator
+            Friend(firstName: "John", lastName: "Smith", phoneNumber: "123-456-7890"),
+            Friend(firstName: "Jane", lastName: "Doe", phoneNumber: "098-765-4321"),
+            Friend(firstName: "Bob", lastName: "Johnson", phoneNumber: "555-555-5555")
+        ]
+        self.friends = mockFriends
+    }
+        /*// Get the user's contacts
         let store = CNContactStore()
         let keysToFetch = [CNContactFormatter.descriptorForRequiredKeys(for: .fullName)]
         do {
@@ -49,7 +56,7 @@ struct FriendsView: View {
 
             // Load friends from Firebase using the phone numbers
             let db = Firestore.firestore()
-            db.collection("friends").whereField("phoneNumber", in: phoneNumbers).getDocuments { (querySnapshot, err) in
+            db.collection("users").whereField("phone", in: phoneNumbers).getDocuments { (querySnapshot, err) in
                 if let err = err {
                     print("Error getting documents: \(err)")
                 } else {
@@ -65,7 +72,7 @@ struct FriendsView: View {
         } catch {
             print("Error loading contacts")
         }
-    }
+    }*/
 }
 
 
@@ -74,6 +81,7 @@ struct FriendsView_Previews: PreviewProvider {
         FriendsView()
     }
 }
+
 
 struct FriendRow: View {
     var friend: Friend

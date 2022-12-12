@@ -19,12 +19,18 @@ struct MapView: UIViewRepresentable {
         locations = [testLocation]
     }
     func makeUIView(context: Context) -> MKMapView {
-            let mapView = MKMapView()
-            mapView.delegate = context.coordinator
-            mapView.showsUserLocation = true
+        let mapView = MKMapView()
+        mapView.delegate = context.coordinator
+        mapView.showsUserLocation = true
 
-            return mapView
+        // Set the map view's center coordinate to the user's current location
+        if let userLocation = mapView.userLocation.location {
+            mapView.centerCoordinate = userLocation.coordinate
         }
+
+        return mapView
+    }
+
 
         func updateUIView(_ view: MKMapView, context: Context) {
             view.removeAnnotations(view.annotations)

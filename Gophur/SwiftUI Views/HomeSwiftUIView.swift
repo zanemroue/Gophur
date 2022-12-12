@@ -1,10 +1,7 @@
-//
 //  HomeSwiftUIView.swift
 //  Gophur
+//Created by Zane Mroue on 11/12/2022.
 //
-//  Created by Jack Edelist on 2022-12-11.
-//
-
 import SwiftUI
 
 struct HomeSwiftUIView: View {

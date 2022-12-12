@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		690409412946984500D378B3 /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690409402946984500D378B3 /* TimePickerView.swift */; };
+		690409452946D16000D378B3 /* HomeSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690409442946D16000D378B3 /* HomeSwiftUIView.swift */; };
 		69129861293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69129860293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift */; };
 		69129863293C2BB700C5CA2B /* PostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69129862293C2BB700C5CA2B /* PostHeaderTableViewCell.swift */; };
 		69129866293D7D6000C5CA2B /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69129865293D7D6000C5CA2B /* FriendsView.swift */; };
@@ -40,17 +41,16 @@
 		D65F583629332CB900DE7F2F /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D65F583529332CB900DE7F2F /* FirebaseFirestoreCombine-Community */; };
 		D65F583829332CB900DE7F2F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D65F583729332CB900DE7F2F /* FirebaseFirestoreSwift */; };
 		D65F583A29332CB900DE7F2F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D65F583929332CB900DE7F2F /* FirebaseStorage */; };
-		D664D6502946AE4F008E95F3 /* HomeSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D664D64F2946AE4F008E95F3 /* HomeSwiftUIView.swift */; };
 		D6C2F9852930813B008146D3 /* GophurApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C2F9842930813B008146D3 /* GophurApp.swift */; };
 		D6C2F9872930813B008146D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C2F9862930813B008146D3 /* ContentView.swift */; };
 		D6C2F9892930813C008146D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C2F9882930813C008146D3 /* Assets.xcassets */; };
-		D6C2F98C2930813C008146D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C2F98B2930813C008146D3 /* Preview Assets.xcassets */; };
 		D6C2F9942930824E008146D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6C2F9932930824E008146D3 /* GoogleService-Info.plist */; };
 		D6C2F99D29309035008146D3 /* LoginSignup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C2F99C29309035008146D3 /* LoginSignup.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		690409402946984500D378B3 /* TimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
+		690409442946D16000D378B3 /* HomeSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSwiftUIView.swift; sourceTree = "<group>"; };
 		69129860293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPreviewTableViewCell.swift; sourceTree = "<group>"; };
 		69129862293C2BB700C5CA2B /* PostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		69129865293D7D6000C5CA2B /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
@@ -105,6 +105,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		690409432946D07100D378B3 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				D664D64F2946AE4F008E95F3 /* HomeSwiftUIView.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		6912985F293C2B3200C5CA2B /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +131,7 @@
 				69129865293D7D6000C5CA2B /* FriendsView.swift */,
 				ADD68402293EE59F007C6355 /* ProfileView.swift */,
 				690409402946984500D378B3 /* TimePickerView.swift */,
+				690409442946D16000D378B3 /* HomeSwiftUIView.swift */,
 			);
 			path = "SwiftUI Views";
 			sourceTree = "<group>";
@@ -177,6 +186,7 @@
 			children = (
 				D6C2F9832930813B008146D3 /* Gophur */,
 				D6C2F9822930813B008146D3 /* Products */,
+				690409432946D07100D378B3 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -198,7 +208,6 @@
 				D65F58252933171C00DE7F2F /* View Controllers */,
 				D6C2F9842930813B008146D3 /* GophurApp.swift */,
 				D6C2F9862930813B008146D3 /* ContentView.swift */,
-				52C5663D2946B6820013B7A5 /* ContentViewNew.swift */,
 				6912985F293C2B3200C5CA2B /* Cells */,
 				D6C2F99C29309035008146D3 /* LoginSignup.storyboard */,
 				D6C2F9882930813C008146D3 /* Assets.xcassets */,
@@ -290,7 +299,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6C2F98C2930813C008146D3 /* Preview Assets.xcassets in Resources */,
 				D6C2F9892930813C008146D3 /* Assets.xcassets in Resources */,
 				D6C2F99D29309035008146D3 /* LoginSignup.storyboard in Resources */,
 				D6C2F9942930824E008146D3 /* GoogleService-Info.plist in Resources */,
@@ -307,16 +315,13 @@
 				A55DC49D293EBDA3003F6CF4 /* ClickedDay.swift in Sources */,
 				69DB864329424B4200E0095A /* MapView.swift in Sources */,
 				69129866293D7D6000C5CA2B /* FriendsView.swift in Sources */,
-				D664D6502946AE4F008E95F3 /* HomeSwiftUIView.swift in Sources */,
-				ADD6841E2946BD4F007C6355 /* User.swift in Sources */,
+				690409452946D16000D378B3 /* HomeSwiftUIView.swift in Sources */,
 				69DB86852945738F00E0095A /* Post.swift in Sources */,
 				69F99669293B267800D3C0D4 /* DatePickerCalender.swift in Sources */,
 				69DB85FF29423D4500E0095A /* AppointmentScheduler.swift in Sources */,
 				ADD68401293D4712007C6355 /* NewPostViewController.swift in Sources */,
-				ADD684172946BBD4007C6355 /* DatabaseManager.swift in Sources */,
 				D65F582D2933227400DE7F2F /* ViewController.swift in Sources */,
 				69DB85F0294106FF00E0095A /* PostCell.swift in Sources */,
-				ADD684202946BDB0007C6355 /* Post.swift in Sources */,
 				69129861293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift in Sources */,
 				D60662E2293FA7F10094AAE3 /* BusinessSignUpViewController.swift in Sources */,
 				69F9966B293B273A00D3C0D4 /* FormattedDate.swift in Sources */,
@@ -325,10 +330,8 @@
 				D65F58292933174B00DE7F2F /* HomeViewController.swift in Sources */,
 				ADD68403293EE59F007C6355 /* ProfileView.swift in Sources */,
 				D65F58272933173700DE7F2F /* LoginViewController.swift in Sources */,
-				ADD684192946BC91007C6355 /* AuthManager.swift in Sources */,
 				ADD683FF293D46F7007C6355 /* ProfileViewController.swift in Sources */,
 				69F99672293B2E5D00D3C0D4 /* CalendarView.swift in Sources */,
-				ADD6841B2946BCDC007C6355 /* StorageManager.swift in Sources */,
 				D65F58242933171300DE7F2F /* SignUpViewController.swift in Sources */,
 				69DB85FB2941082600E0095A /* PostViewModel.swift in Sources */,
 				69DB860129423F0300E0095A /* AppointmentListView.swift in Sources */,
@@ -337,7 +340,6 @@
 				D6C2F9872930813B008146D3 /* ContentView.swift in Sources */,
 				690409412946984500D378B3 /* TimePickerView.swift in Sources */,
 				D6C2F9852930813B008146D3 /* GophurApp.swift in Sources */,
-				52C5663E2946B6820013B7A5 /* ContentViewNew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +469,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Gophur/Preview Content\"";
+				DEVELOPMENT_TEAM = 8MZQ8P8FTL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
