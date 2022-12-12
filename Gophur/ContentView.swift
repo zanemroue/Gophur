@@ -25,7 +25,7 @@ struct ContentView: View {
                 Label("DatePicker Calendar", systemImage: "calendar.badge.plus")
                       .padding().tag(4)
               }*/
-            CalendarView().ignoresSafeArea()
+            AddAvailability().ignoresSafeArea()
               .tabItem {
                 Label("Fullscreen Calendar", systemImage: "calendar")
                       .padding().tag(5)
