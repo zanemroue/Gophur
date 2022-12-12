@@ -7,7 +7,7 @@ import SwiftUI
 struct HomeSwiftUIView: View {
     @State var activeTab:Int = 1//variable for selected tab user makes default is set to first option
     @State var selectedDate: Date = Date()
-    @ObservedObject var viewModel = PostViewModel()
+    //@ObservedObject var viewModel = PostViewModel()
     var body: some View {
         TabView(selection: $activeTab) {//tab view for friends, profile and feed page
             FriendsView().tabItem { Image(systemName: "person.3.fill") }.tag(1)

@@ -10,38 +10,69 @@ import SwiftUI
 
 struct NewPostView1: View  {
     @State private var caption = ""
+    @State private var sourceType: UIImagePickerController.SourceType = .photoLibrary
+    @State private var selectedImage: UIImage?
+    @State private var isImagePickerDisplay = false
+    
     @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
-        VStack {
-            HStack {
-                Button {
-                    presentationMode.wrappedValue.dismiss()
-                } label: {
-                    Text("Cancel")
-                    .foregroundColor(Color(.systemBlue))
+        NavigationView{
+            VStack {
+                if selectedImage != nil {
+                    Image(uiImage: selectedImage!)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .clipShape(Circle())
+                        .frame(width: 300, height: 300)
+                } else {
+                    Image(systemName: "snow")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        //.clipShape(Circle())
+                        .frame(width: 300, height: 300)
                 }
-                Spacer()
-                Button {
-                    print("Post")
-                } label: {
-                    Text("Post")
-                        .bold()
-                        .padding(.horizontal)
-                        .padding(.vertical, 8)
-                        .background(Color(.systemBlue))
-                        .foregroundColor(.white)
-                        .clipShape(Capsule())
+                
+                Button("photo") {
+                    self.sourceType = .photoLibrary
+                    self.isImagePickerDisplay.toggle()
+                }.padding()
+                HStack(alignment: .top) {
+                    Circle()
+                        .frame(width: 64, height: 64)
+                    TextArea1("Write your post here!", text: $caption)
+                    //let newPost: Post = Post(id: 1, imageName: "Zane", caption:TextArea1.caption)
+                    
                 }
+                .padding()
+                HStack {
+                    Button {
+                        presentationMode.wrappedValue.dismiss()
+                    } label: {
+                        Text("Cancel")
+                            .foregroundColor(Color(.systemBlue))
+                    }
+                    Spacer()
+                    
+                    Button {
+                        print("Post")
+                    } label: {
+                        Text("Post")
+                            .bold()
+                            .padding(.horizontal)
+                            .padding(.vertical, 8)
+                            .background(Color(.systemBlue))
+                            .foregroundColor(.white)
+                            .clipShape(Capsule())
+                    }
+                }
+                .padding()
+                
             }
-            .padding()
-            HStack(alignment: .top) {
-                Circle()
-                    .frame(width: 64, height: 64)
-                TextArea1("Write your post here!", text: $caption)
-
+            .navigationBarTitle("New Post")
+            .sheet(isPresented: self.$isImagePickerDisplay) {
+                    ImagePickerView(selectedImage: self.$selectedImage, sourceType: self.sourceType)
             }
-            .padding()
         }
     }
 }
