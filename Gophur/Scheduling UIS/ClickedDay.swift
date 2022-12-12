@@ -6,16 +6,17 @@
 //
 
 import SwiftUI
+import FirebaseAuth
+import Firebase
+import FSCalendar
 
 struct ClickedDay: View {
     @State private var selectedTimes: String? = nil
-    @State private var selection = "12:10"
+    @State private var selection = ""
     
+    let db = Firestore.firestore()
     let times = [
-        "12:10",
-        "1:45",
-        "2:20",
-        "4:45"
+    "12:10"
     ]
     
     var body: some View {

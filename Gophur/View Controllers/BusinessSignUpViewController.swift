@@ -104,7 +104,8 @@ class BusinessSignUpViewController: UIViewController {
                 else {
                     //user was created, store details
                     let db = Firestore.firestore()
-                    db.collection("businesses").addDocument(data: ["username": username, "uid": result!.user.uid, "address": address, "phone": phone]) { (error) in
+                    
+                    db.collection("businesses").document(result!.user.uid).setData(["username": username, "uid": result!.user.uid, "address": address, "phone": phone, "Monday": Array<String>(), "Tuesday": Array<String>(), "Wednesday": Array<String>(), "Thursday": Array<String>(), "Friday": Array<String>()]) { (error) in
                         
                         if error != nil {
                             //error storing info

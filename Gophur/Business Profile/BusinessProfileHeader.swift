@@ -36,6 +36,13 @@ struct BusinessProfileHeader: View {
                             .padding(.top,14)
                         Button("Contact Us", action:{/*Couldn't reroute to another page w/o storyboard */})
                         
+                        NavigationLink(destination: AddAvailability()){
+                            Text("Add your Availability")
+                                .padding()
+                                .frame(height: 100)
+                                .cornerRadius(40)
+                        }
+                        
                         NavigationLink(destination: CalendarView()){
                             Text("Schedule an Appointment")
                             //.frame(minWidth: 0, maxWidth: 300)
