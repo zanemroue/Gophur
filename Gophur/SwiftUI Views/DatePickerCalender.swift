@@ -11,7 +11,15 @@ struct DatePickerCalendar: View {
     @State var selectedDate = Date()
     var omitTime: Bool = true
     
+    
     var body: some View {
+        let dateFormatter = DateFormatter()
+        let weekdays = dateFormatter.weekdaySymbols
+        let weekday = weekdays![Calendar.current.component(.weekday, from: selectedDate)]
+
+        // Display the weekday and the date
+        Text("\(weekday), \(selectedDate)")
+
         NavigationView{
         VStack {
             FormattedDate(selectedDate: selectedDate, omitTime: true)

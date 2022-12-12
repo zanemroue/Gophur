@@ -51,3 +51,4 @@ struct NewPostView_Previews1: PreviewProvider {
         NewPostView1()
     }
 }
+
