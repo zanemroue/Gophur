@@ -24,6 +24,7 @@
 		69F99675293BABC400D3C0D4 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 69F99674293BABC400D3C0D4 /* FSCalendar */; };
 		A55DC49D293EBDA3003F6CF4 /* ClickedDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55DC49C293EBDA3003F6CF4 /* ClickedDay.swift */; };
 		A55DC49F293ECF00003F6CF4 /* ConfirmationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55DC49E293ECF00003F6CF4 /* ConfirmationPage.swift */; };
+		A5C16BAE2946A4F3004AA53F /* AddAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C16BAD2946A4F3004AA53F /* AddAvailability.swift */; };
 		ADD683FF293D46F7007C6355 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD683FE293D46F7007C6355 /* ProfileViewController.swift */; };
 		ADD68401293D4712007C6355 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD68400293D4712007C6355 /* NewPostViewController.swift */; };
 		ADD68403293EE59F007C6355 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD68402293EE59F007C6355 /* ProfileView.swift */; };
@@ -63,6 +64,7 @@
 		69F99671293B2E5D00D3C0D4 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		A55DC49C293EBDA3003F6CF4 /* ClickedDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickedDay.swift; sourceTree = "<group>"; };
 		A55DC49E293ECF00003F6CF4 /* ConfirmationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationPage.swift; sourceTree = "<group>"; };
+		A5C16BAD2946A4F3004AA53F /* AddAvailability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAvailability.swift; sourceTree = "<group>"; };
 		ADD683FE293D46F7007C6355 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		ADD68400293D4712007C6355 /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
 		ADD68402293EE59F007C6355 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				A55DC49C293EBDA3003F6CF4 /* ClickedDay.swift */,
 				A55DC49E293ECF00003F6CF4 /* ConfirmationPage.swift */,
 				69DB85FE29423D4400E0095A /* AppointmentScheduler.swift */,
+				A5C16BAD2946A4F3004AA53F /* AddAvailability.swift */,
 				69DB860029423F0300E0095A /* AppointmentListView.swift */,
 			);
 			path = "Scheduling UIS";
@@ -311,6 +314,7 @@
 				69129861293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift in Sources */,
 				D60662E2293FA7F10094AAE3 /* BusinessSignUpViewController.swift in Sources */,
 				69F9966B293B273A00D3C0D4 /* FormattedDate.swift in Sources */,
+				A5C16BAE2946A4F3004AA53F /* AddAvailability.swift in Sources */,
 				A55DC49F293ECF00003F6CF4 /* ConfirmationPage.swift in Sources */,
 				D65F58292933174B00DE7F2F /* HomeViewController.swift in Sources */,
 				ADD68403293EE59F007C6355 /* ProfileView.swift in Sources */,
