@@ -40,6 +40,7 @@
 		D65F583629332CB900DE7F2F /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D65F583529332CB900DE7F2F /* FirebaseFirestoreCombine-Community */; };
 		D65F583829332CB900DE7F2F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D65F583729332CB900DE7F2F /* FirebaseFirestoreSwift */; };
 		D65F583A29332CB900DE7F2F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D65F583929332CB900DE7F2F /* FirebaseStorage */; };
+		D664D6502946AE4F008E95F3 /* HomeSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D664D64F2946AE4F008E95F3 /* HomeSwiftUIView.swift */; };
 		D6C2F9852930813B008146D3 /* GophurApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C2F9842930813B008146D3 /* GophurApp.swift */; };
 		D6C2F9872930813B008146D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C2F9862930813B008146D3 /* ContentView.swift */; };
 		D6C2F9892930813C008146D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C2F9882930813C008146D3 /* Assets.xcassets */; };
@@ -74,6 +75,7 @@
 		D65F58262933173700DE7F2F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D65F58282933174B00DE7F2F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D65F582C2933227400DE7F2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D664D64F2946AE4F008E95F3 /* HomeSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSwiftUIView.swift; sourceTree = "<group>"; };
 		D6C2F9812930813B008146D3 /* Gophur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gophur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C2F9842930813B008146D3 /* GophurApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GophurApp.swift; sourceTree = "<group>"; };
 		D6C2F9862930813B008146D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				D65F58252933171C00DE7F2F /* View Controllers */,
 				D6C2F9842930813B008146D3 /* GophurApp.swift */,
 				D6C2F9862930813B008146D3 /* ContentView.swift */,
+				52C5663D2946B6820013B7A5 /* ContentViewNew.swift */,
 				6912985F293C2B3200C5CA2B /* Cells */,
 				D6C2F99C29309035008146D3 /* LoginSignup.storyboard */,
 				D6C2F9882930813C008146D3 /* Assets.xcassets */,
@@ -304,12 +307,16 @@
 				A55DC49D293EBDA3003F6CF4 /* ClickedDay.swift in Sources */,
 				69DB864329424B4200E0095A /* MapView.swift in Sources */,
 				69129866293D7D6000C5CA2B /* FriendsView.swift in Sources */,
+				D664D6502946AE4F008E95F3 /* HomeSwiftUIView.swift in Sources */,
+				ADD6841E2946BD4F007C6355 /* User.swift in Sources */,
 				69DB86852945738F00E0095A /* Post.swift in Sources */,
 				69F99669293B267800D3C0D4 /* DatePickerCalender.swift in Sources */,
 				69DB85FF29423D4500E0095A /* AppointmentScheduler.swift in Sources */,
 				ADD68401293D4712007C6355 /* NewPostViewController.swift in Sources */,
+				ADD684172946BBD4007C6355 /* DatabaseManager.swift in Sources */,
 				D65F582D2933227400DE7F2F /* ViewController.swift in Sources */,
 				69DB85F0294106FF00E0095A /* PostCell.swift in Sources */,
+				ADD684202946BDB0007C6355 /* Post.swift in Sources */,
 				69129861293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift in Sources */,
 				D60662E2293FA7F10094AAE3 /* BusinessSignUpViewController.swift in Sources */,
 				69F9966B293B273A00D3C0D4 /* FormattedDate.swift in Sources */,
@@ -318,8 +325,10 @@
 				D65F58292933174B00DE7F2F /* HomeViewController.swift in Sources */,
 				ADD68403293EE59F007C6355 /* ProfileView.swift in Sources */,
 				D65F58272933173700DE7F2F /* LoginViewController.swift in Sources */,
+				ADD684192946BC91007C6355 /* AuthManager.swift in Sources */,
 				ADD683FF293D46F7007C6355 /* ProfileViewController.swift in Sources */,
 				69F99672293B2E5D00D3C0D4 /* CalendarView.swift in Sources */,
+				ADD6841B2946BCDC007C6355 /* StorageManager.swift in Sources */,
 				D65F58242933171300DE7F2F /* SignUpViewController.swift in Sources */,
 				69DB85FB2941082600E0095A /* PostViewModel.swift in Sources */,
 				69DB860129423F0300E0095A /* AppointmentListView.swift in Sources */,
@@ -328,6 +337,7 @@
 				D6C2F9872930813B008146D3 /* ContentView.swift in Sources */,
 				690409412946984500D378B3 /* TimePickerView.swift in Sources */,
 				D6C2F9852930813B008146D3 /* GophurApp.swift in Sources */,
+				52C5663E2946B6820013B7A5 /* ContentViewNew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +460,7 @@
 		D6C2F9912930813C008146D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = iosAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Gophur/Gophur.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -482,8 +492,7 @@
 		D6C2F9922930813C008146D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = iosAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Gophur/Gophur.entitlements;
 				CODE_SIGN_STYLE = Automatic;
