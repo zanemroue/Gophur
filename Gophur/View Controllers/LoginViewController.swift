@@ -7,6 +7,7 @@
 
 import UIKit
 import FirebaseAuth
+import SwiftUI
 
 class LoginViewController: UIViewController {
 
@@ -61,10 +62,16 @@ class LoginViewController: UIViewController {
                 self.ErrorLabel.alpha = 1
             }
             else {
-                let homeViewController = self.storyboard?.instantiateViewController(withIdentifier: "HomeVC") as? HomeViewController
+                //direct user to home page
+                let hostingController = UIHostingController(rootView: HomeSwiftUIView())
+                self.navigationController?.pushViewController(hostingController, animated: true)
                 
-                self.view.window?.rootViewController = homeViewController
-                self.view.window?.makeKeyAndVisible()
+                
+                
+                //OLD CODE
+//                let homeViewController = self.storyboard?.instantiateViewController(withIdentifier: "HomeVC") as? HomeViewController
+//                self.view.window?.rootViewController = homeViewController
+//                self.view.window?.makeKeyAndVisible()
                 
             }
             

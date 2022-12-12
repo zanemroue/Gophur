@@ -8,6 +8,7 @@
 import UIKit
 import FirebaseAuth
 import Firebase
+import SwiftUI
 
 class SignUpViewController: UIViewController {
     
@@ -72,10 +73,8 @@ class SignUpViewController: UIViewController {
     
     //method for transitioning to home VC and assigning it root VC
     func transitionToHome() {
-        let homeViewController = storyboard?.instantiateViewController(withIdentifier: "HomeVC") as? HomeViewController
-        
-        view.window?.rootViewController = homeViewController
-        view.window?.makeKeyAndVisible()
+        let hostingController = UIHostingController(rootView: HomeSwiftUIView())
+        self.navigationController?.pushViewController(hostingController, animated: true)
     }
     
     
@@ -112,7 +111,7 @@ class SignUpViewController: UIViewController {
                 else {
                     //user was created, store username
                     let db = Firestore.firestore()
-                    db.collection("users").addDocument(data: ["username": username, "uid": result!.user.uid, "first": first, "last": last]) { (error) in
+                    db.collection("users").addDocument(data: ["username": username, "uid": result!.user.uid, "first": first, "last": last, "phone": phone]) { (error) in
                         
                         if error != nil {
                             //error storing info

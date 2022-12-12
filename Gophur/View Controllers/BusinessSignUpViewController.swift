@@ -8,6 +8,7 @@
 import UIKit
 import Firebase
 import FirebaseAuth
+import SwiftUI
 
 class BusinessSignUpViewController: UIViewController {
     
@@ -66,10 +67,8 @@ class BusinessSignUpViewController: UIViewController {
     
     //method for transitioning to home VC and assigning it root VC
     func transitionToHome() {
-        let homeViewController = storyboard?.instantiateViewController(withIdentifier: "HomeVC") as? HomeViewController
-        
-        view.window?.rootViewController = homeViewController
-        view.window?.makeKeyAndVisible()
+        let hostingController = UIHostingController(rootView: HomeSwiftUIView())
+        self.navigationController?.pushViewController(hostingController, animated: true)
     }
     
     

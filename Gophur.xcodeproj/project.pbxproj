@@ -38,6 +38,7 @@
 		D65F583629332CB900DE7F2F /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D65F583529332CB900DE7F2F /* FirebaseFirestoreCombine-Community */; };
 		D65F583829332CB900DE7F2F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D65F583729332CB900DE7F2F /* FirebaseFirestoreSwift */; };
 		D65F583A29332CB900DE7F2F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D65F583929332CB900DE7F2F /* FirebaseStorage */; };
+		D664D6502946AE4F008E95F3 /* HomeSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D664D64F2946AE4F008E95F3 /* HomeSwiftUIView.swift */; };
 		D6C2F9852930813B008146D3 /* GophurApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C2F9842930813B008146D3 /* GophurApp.swift */; };
 		D6C2F9872930813B008146D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C2F9862930813B008146D3 /* ContentView.swift */; };
 		D6C2F9892930813C008146D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C2F9882930813C008146D3 /* Assets.xcassets */; };
@@ -70,6 +71,7 @@
 		D65F58262933173700DE7F2F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D65F58282933174B00DE7F2F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D65F582C2933227400DE7F2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D664D64F2946AE4F008E95F3 /* HomeSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSwiftUIView.swift; sourceTree = "<group>"; };
 		D6C2F9812930813B008146D3 /* Gophur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gophur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C2F9842930813B008146D3 /* GophurApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GophurApp.swift; sourceTree = "<group>"; };
 		D6C2F9862930813B008146D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		69129864293D7D2C00C5CA2B /* SwiftUI Views */ = {
 			isa = PBXGroup;
 			children = (
+				D664D64F2946AE4F008E95F3 /* HomeSwiftUIView.swift */,
 				69F9966A293B273A00D3C0D4 /* FormattedDate.swift */,
 				69F99668293B267800D3C0D4 /* DatePickerCalender.swift */,
 				69F99671293B2E5D00D3C0D4 /* CalendarView.swift */,
@@ -192,8 +195,8 @@
 				D6C2F9862930813B008146D3 /* ContentView.swift */,
 				6912985F293C2B3200C5CA2B /* Cells */,
 				D6C2F99C29309035008146D3 /* LoginSignup.storyboard */,
-				D6C2F9882930813C008146D3 /* Assets.xcassets */,
 				D6C2F9932930824E008146D3 /* GoogleService-Info.plist */,
+				D6C2F9882930813C008146D3 /* Assets.xcassets */,
 				D6C2F98D2930813C008146D3 /* Gophur.entitlements */,
 				D6C2F98A2930813C008146D3 /* Preview Content */,
 			);
@@ -298,6 +301,7 @@
 				A55DC49D293EBDA3003F6CF4 /* ClickedDay.swift in Sources */,
 				69DB864329424B4200E0095A /* MapView.swift in Sources */,
 				69129866293D7D6000C5CA2B /* FriendsView.swift in Sources */,
+				D664D6502946AE4F008E95F3 /* HomeSwiftUIView.swift in Sources */,
 				69DB86852945738F00E0095A /* Post.swift in Sources */,
 				69F99669293B267800D3C0D4 /* DatePickerCalender.swift in Sources */,
 				69DB85FF29423D4500E0095A /* AppointmentScheduler.swift in Sources */,
@@ -442,7 +446,7 @@
 		D6C2F9912930813C008146D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = iosAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Gophur/Gophur.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -474,8 +478,7 @@
 		D6C2F9922930813C008146D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = iosAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Gophur/Gophur.entitlements;
 				CODE_SIGN_STYLE = Automatic;
