@@ -1,10 +1,7 @@
-//
 //  HomeSwiftUIView.swift
 //  Gophur
+//Created by Zane Mroue on 11/12/2022.
 //
-//  Created by Jack Edelist on 2022-12-11.
-//
-
 import SwiftUI
 
 struct HomeSwiftUIView: View {
@@ -14,8 +11,10 @@ struct HomeSwiftUIView: View {
     var body: some View {
         TabView(selection: $activeTab) {//tab view for friends, profile and feed page
             FriendsView().tabItem { Image(systemName: "person.3.fill") }.tag(1)
-            Text("Feed").tabItem { Image(systemName: "list.bullet") }.tag(2)
-            BusinessProfileHeader()
+            FeedView1()
+                .tabItem { Image(systemName:
+                "list.bullet") }.tag(2)
+            ProfileView1()
                 .tabItem { Image(systemName:
                 "person.fill") }.tag(3)
             /*DatePickerCalendar()
@@ -23,6 +22,7 @@ struct HomeSwiftUIView: View {
                 Label("DatePicker Calendar", systemImage: "calendar.badge.plus")
                       .padding().tag(4)
               }*/
+            
             CalendarView().ignoresSafeArea()
               .tabItem {
                 Label("Fullscreen Calendar", systemImage: "calendar")

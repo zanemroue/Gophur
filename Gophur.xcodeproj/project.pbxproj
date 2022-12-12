@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52666568294792EC00388850 /* TextArea1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52666567294792EC00388850 /* TextArea1.swift */; };
+		5266656A2947933400388850 /* NewPostView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526665692947933400388850 /* NewPostView1.swift */; };
+		5266656D2947939D00388850 /* FeedView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5266656C2947939D00388850 /* FeedView1.swift */; };
+		52666570294793E000388850 /* GopherRowView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5266656F294793E000388850 /* GopherRowView1.swift */; };
+		526665732947943500388850 /* ProfileView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526665722947943500388850 /* ProfileView1.swift */; };
+		526665772947947B00388850 /* GopherFilterViewModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526665762947947B00388850 /* GopherFilterViewModel1.swift */; };
+		690409412946984500D378B3 /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690409402946984500D378B3 /* TimePickerView.swift */; };
+		690409452946D16000D378B3 /* HomeSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690409442946D16000D378B3 /* HomeSwiftUIView.swift */; };
 		69129861293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69129860293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift */; };
 		69129863293C2BB700C5CA2B /* PostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69129862293C2BB700C5CA2B /* PostHeaderTableViewCell.swift */; };
 		69129866293D7D6000C5CA2B /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69129865293D7D6000C5CA2B /* FriendsView.swift */; };
@@ -39,16 +47,22 @@
 		D65F583629332CB900DE7F2F /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D65F583529332CB900DE7F2F /* FirebaseFirestoreCombine-Community */; };
 		D65F583829332CB900DE7F2F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D65F583729332CB900DE7F2F /* FirebaseFirestoreSwift */; };
 		D65F583A29332CB900DE7F2F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D65F583929332CB900DE7F2F /* FirebaseStorage */; };
-		D664D6502946AE4F008E95F3 /* HomeSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D664D64F2946AE4F008E95F3 /* HomeSwiftUIView.swift */; };
 		D6C2F9852930813B008146D3 /* GophurApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C2F9842930813B008146D3 /* GophurApp.swift */; };
 		D6C2F9872930813B008146D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C2F9862930813B008146D3 /* ContentView.swift */; };
 		D6C2F9892930813C008146D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C2F9882930813C008146D3 /* Assets.xcassets */; };
-		D6C2F98C2930813C008146D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C2F98B2930813C008146D3 /* Preview Assets.xcassets */; };
 		D6C2F9942930824E008146D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6C2F9932930824E008146D3 /* GoogleService-Info.plist */; };
 		D6C2F99D29309035008146D3 /* LoginSignup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C2F99C29309035008146D3 /* LoginSignup.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52666567294792EC00388850 /* TextArea1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea1.swift; sourceTree = "<group>"; };
+		526665692947933400388850 /* NewPostView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostView1.swift; sourceTree = "<group>"; };
+		5266656C2947939D00388850 /* FeedView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView1.swift; sourceTree = "<group>"; };
+		5266656F294793E000388850 /* GopherRowView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GopherRowView1.swift; sourceTree = "<group>"; };
+		526665722947943500388850 /* ProfileView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView1.swift; sourceTree = "<group>"; };
+		526665762947947B00388850 /* GopherFilterViewModel1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GopherFilterViewModel1.swift; sourceTree = "<group>"; };
+		690409402946984500D378B3 /* TimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
+		690409442946D16000D378B3 /* HomeSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSwiftUIView.swift; sourceTree = "<group>"; };
 		69129860293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPreviewTableViewCell.swift; sourceTree = "<group>"; };
 		69129862293C2BB700C5CA2B /* PostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		69129865293D7D6000C5CA2B /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
@@ -103,6 +117,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		526665652947926800388850 /* Personal Profile */ = {
+			isa = PBXGroup;
+			children = (
+				526665712947942500388850 /* ProfileView1 */,
+				5266656E294793AE00388850 /* RowView1 */,
+				5266656B2947938F00388850 /* FeedView1 */,
+				526665662947929500388850 /* NewPostingView1 */,
+			);
+			path = "Personal Profile";
+			sourceTree = "<group>";
+		};
+		526665662947929500388850 /* NewPostingView1 */ = {
+			isa = PBXGroup;
+			children = (
+				52666567294792EC00388850 /* TextArea1.swift */,
+				526665692947933400388850 /* NewPostView1.swift */,
+			);
+			path = NewPostingView1;
+			sourceTree = "<group>";
+		};
+		5266656B2947938F00388850 /* FeedView1 */ = {
+			isa = PBXGroup;
+			children = (
+				5266656C2947939D00388850 /* FeedView1.swift */,
+			);
+			path = FeedView1;
+			sourceTree = "<group>";
+		};
+		5266656E294793AE00388850 /* RowView1 */ = {
+			isa = PBXGroup;
+			children = (
+				5266656F294793E000388850 /* GopherRowView1.swift */,
+			);
+			path = RowView1;
+			sourceTree = "<group>";
+		};
+		526665712947942500388850 /* ProfileView1 */ = {
+			isa = PBXGroup;
+			children = (
+				526665722947943500388850 /* ProfileView1.swift */,
+				526665762947947B00388850 /* GopherFilterViewModel1.swift */,
+			);
+			path = ProfileView1;
+			sourceTree = "<group>";
+		};
+		690409432946D07100D378B3 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				D664D64F2946AE4F008E95F3 /* HomeSwiftUIView.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		6912985F293C2B3200C5CA2B /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,12 +182,13 @@
 		69129864293D7D2C00C5CA2B /* SwiftUI Views */ = {
 			isa = PBXGroup;
 			children = (
-				D664D64F2946AE4F008E95F3 /* HomeSwiftUIView.swift */,
 				69F9966A293B273A00D3C0D4 /* FormattedDate.swift */,
 				69F99668293B267800D3C0D4 /* DatePickerCalender.swift */,
 				69F99671293B2E5D00D3C0D4 /* CalendarView.swift */,
 				69129865293D7D6000C5CA2B /* FriendsView.swift */,
 				ADD68402293EE59F007C6355 /* ProfileView.swift */,
+				690409402946984500D378B3 /* TimePickerView.swift */,
+				690409442946D16000D378B3 /* HomeSwiftUIView.swift */,
 			);
 			path = "SwiftUI Views";
 			sourceTree = "<group>";
@@ -175,6 +243,7 @@
 			children = (
 				D6C2F9832930813B008146D3 /* Gophur */,
 				D6C2F9822930813B008146D3 /* Products */,
+				690409432946D07100D378B3 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,6 +258,7 @@
 		D6C2F9832930813B008146D3 /* Gophur */ = {
 			isa = PBXGroup;
 			children = (
+				526665652947926800388850 /* Personal Profile */,
 				69DB864129424B1B00E0095A /* Map */,
 				69DB85F12941076100E0095A /* Business Profile */,
 				A55DC49B293EBD95003F6CF4 /* Scheduling UIS */,
@@ -198,8 +268,8 @@
 				D6C2F9862930813B008146D3 /* ContentView.swift */,
 				6912985F293C2B3200C5CA2B /* Cells */,
 				D6C2F99C29309035008146D3 /* LoginSignup.storyboard */,
-				D6C2F9932930824E008146D3 /* GoogleService-Info.plist */,
 				D6C2F9882930813C008146D3 /* Assets.xcassets */,
+				D6C2F9932930824E008146D3 /* GoogleService-Info.plist */,
 				D6C2F98D2930813C008146D3 /* Gophur.entitlements */,
 				D6C2F98A2930813C008146D3 /* Preview Content */,
 			);
@@ -287,7 +357,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6C2F98C2930813C008146D3 /* Preview Assets.xcassets in Resources */,
 				D6C2F9892930813C008146D3 /* Assets.xcassets in Resources */,
 				D6C2F99D29309035008146D3 /* LoginSignup.storyboard in Resources */,
 				D6C2F9942930824E008146D3 /* GoogleService-Info.plist in Resources */,
@@ -304,10 +373,12 @@
 				A55DC49D293EBDA3003F6CF4 /* ClickedDay.swift in Sources */,
 				69DB864329424B4200E0095A /* MapView.swift in Sources */,
 				69129866293D7D6000C5CA2B /* FriendsView.swift in Sources */,
-				D664D6502946AE4F008E95F3 /* HomeSwiftUIView.swift in Sources */,
+				690409452946D16000D378B3 /* HomeSwiftUIView.swift in Sources */,
+				526665732947943500388850 /* ProfileView1.swift in Sources */,
 				69DB86852945738F00E0095A /* Post.swift in Sources */,
 				69F99669293B267800D3C0D4 /* DatePickerCalender.swift in Sources */,
 				69DB85FF29423D4500E0095A /* AppointmentScheduler.swift in Sources */,
+				5266656D2947939D00388850 /* FeedView1.swift in Sources */,
 				ADD68401293D4712007C6355 /* NewPostViewController.swift in Sources */,
 				D65F582D2933227400DE7F2F /* ViewController.swift in Sources */,
 				69DB85F0294106FF00E0095A /* PostCell.swift in Sources */,
@@ -323,11 +394,16 @@
 				69F99672293B2E5D00D3C0D4 /* CalendarView.swift in Sources */,
 				D65F58242933171300DE7F2F /* SignUpViewController.swift in Sources */,
 				69DB85FB2941082600E0095A /* PostViewModel.swift in Sources */,
+				52666568294792EC00388850 /* TextArea1.swift in Sources */,
+				52666570294793E000388850 /* GopherRowView1.swift in Sources */,
 				69DB860129423F0300E0095A /* AppointmentListView.swift in Sources */,
 				69129863293C2BB700C5CA2B /* PostHeaderTableViewCell.swift in Sources */,
 				69DB85F7294107E400E0095A /* BusinessProfileHeader.swift in Sources */,
 				D6C2F9872930813B008146D3 /* ContentView.swift in Sources */,
+				690409412946984500D378B3 /* TimePickerView.swift in Sources */,
 				D6C2F9852930813B008146D3 /* GophurApp.swift in Sources */,
+				5266656A2947933400388850 /* NewPostView1.swift in Sources */,
+				526665772947947B00388850 /* GopherFilterViewModel1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +533,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Gophur/Preview Content\"";
+				DEVELOPMENT_TEAM = 8MZQ8P8FTL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
