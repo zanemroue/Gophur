@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52C5663A2946B6270013B7A5 /* Core in Resources */ = {isa = PBXBuildFile; fileRef = 52C566392946B6270013B7A5 /* Core */; };
 		52C5663E2946B6820013B7A5 /* ContentViewNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C5663D2946B6820013B7A5 /* ContentViewNew.swift */; };
 		69129861293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69129860293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift */; };
 		69129863293C2BB700C5CA2B /* PostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69129862293C2BB700C5CA2B /* PostHeaderTableViewCell.swift */; };
@@ -30,6 +29,11 @@
 		ADD683FF293D46F7007C6355 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD683FE293D46F7007C6355 /* ProfileViewController.swift */; };
 		ADD68401293D4712007C6355 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD68400293D4712007C6355 /* NewPostViewController.swift */; };
 		ADD68403293EE59F007C6355 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD68402293EE59F007C6355 /* ProfileView.swift */; };
+		ADD684172946BBD4007C6355 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD684162946BBD4007C6355 /* DatabaseManager.swift */; };
+		ADD684192946BC91007C6355 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD684182946BC91007C6355 /* AuthManager.swift */; };
+		ADD6841B2946BCDC007C6355 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6841A2946BCDC007C6355 /* StorageManager.swift */; };
+		ADD6841E2946BD4F007C6355 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6841D2946BD4F007C6355 /* User.swift */; };
+		ADD684202946BDB0007C6355 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6841F2946BDB0007C6355 /* Post.swift */; };
 		D60662E2293FA7F10094AAE3 /* BusinessSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60662E1293FA7F10094AAE3 /* BusinessSignUpViewController.swift */; };
 		D65F58242933171300DE7F2F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F58232933171300DE7F2F /* SignUpViewController.swift */; };
 		D65F58272933173700DE7F2F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F58262933173700DE7F2F /* LoginViewController.swift */; };
@@ -51,7 +55,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		52C566392946B6270013B7A5 /* Core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Core; path = ../../../Desktop/GopherUI/GopherUI/Core; sourceTree = "<group>"; };
 		52C5663D2946B6820013B7A5 /* ContentViewNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewNew.swift; sourceTree = "<group>"; };
 		69129860293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPreviewTableViewCell.swift; sourceTree = "<group>"; };
 		69129862293C2BB700C5CA2B /* PostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderTableViewCell.swift; sourceTree = "<group>"; };
@@ -72,6 +75,11 @@
 		ADD683FE293D46F7007C6355 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		ADD68400293D4712007C6355 /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
 		ADD68402293EE59F007C6355 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		ADD684162946BBD4007C6355 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		ADD684182946BC91007C6355 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		ADD6841A2946BCDC007C6355 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		ADD6841D2946BD4F007C6355 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ADD6841F2946BDB0007C6355 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		D60662E1293FA7F10094AAE3 /* BusinessSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSignUpViewController.swift; sourceTree = "<group>"; };
 		D65F58232933171300DE7F2F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D65F58262933173700DE7F2F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +168,25 @@
 			path = "Scheduling UIS";
 			sourceTree = "<group>";
 		};
+		ADD684152946BB9B007C6355 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				ADD684162946BBD4007C6355 /* DatabaseManager.swift */,
+				ADD684182946BC91007C6355 /* AuthManager.swift */,
+				ADD6841A2946BCDC007C6355 /* StorageManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		ADD6841C2946BD3F007C6355 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ADD6841D2946BD4F007C6355 /* User.swift */,
+				ADD6841F2946BDB0007C6355 /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		D65F58252933171C00DE7F2F /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +220,8 @@
 		D6C2F9832930813B008146D3 /* Gophur */ = {
 			isa = PBXGroup;
 			children = (
-				52C566392946B6270013B7A5 /* Core */,
+				ADD6841C2946BD3F007C6355 /* Models */,
+				ADD684152946BB9B007C6355 /* Managers */,
 				69DB864129424B1B00E0095A /* Map */,
 				69DB85F12941076100E0095A /* Business Profile */,
 				A55DC49B293EBD95003F6CF4 /* Scheduling UIS */,
@@ -296,7 +324,6 @@
 				D6C2F98C2930813C008146D3 /* Preview Assets.xcassets in Resources */,
 				D6C2F9892930813C008146D3 /* Assets.xcassets in Resources */,
 				D6C2F99D29309035008146D3 /* LoginSignup.storyboard in Resources */,
-				52C5663A2946B6270013B7A5 /* Core in Resources */,
 				D6C2F9942930824E008146D3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,12 +339,15 @@
 				69DB864329424B4200E0095A /* MapView.swift in Sources */,
 				69129866293D7D6000C5CA2B /* FriendsView.swift in Sources */,
 				D664D6502946AE4F008E95F3 /* HomeSwiftUIView.swift in Sources */,
+				ADD6841E2946BD4F007C6355 /* User.swift in Sources */,
 				69DB86852945738F00E0095A /* Post.swift in Sources */,
 				69F99669293B267800D3C0D4 /* DatePickerCalender.swift in Sources */,
 				69DB85FF29423D4500E0095A /* AppointmentScheduler.swift in Sources */,
 				ADD68401293D4712007C6355 /* NewPostViewController.swift in Sources */,
+				ADD684172946BBD4007C6355 /* DatabaseManager.swift in Sources */,
 				D65F582D2933227400DE7F2F /* ViewController.swift in Sources */,
 				69DB85F0294106FF00E0095A /* PostCell.swift in Sources */,
+				ADD684202946BDB0007C6355 /* Post.swift in Sources */,
 				69129861293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift in Sources */,
 				D60662E2293FA7F10094AAE3 /* BusinessSignUpViewController.swift in Sources */,
 				69F9966B293B273A00D3C0D4 /* FormattedDate.swift in Sources */,
@@ -326,8 +356,10 @@
 				D65F58292933174B00DE7F2F /* HomeViewController.swift in Sources */,
 				ADD68403293EE59F007C6355 /* ProfileView.swift in Sources */,
 				D65F58272933173700DE7F2F /* LoginViewController.swift in Sources */,
+				ADD684192946BC91007C6355 /* AuthManager.swift in Sources */,
 				ADD683FF293D46F7007C6355 /* ProfileViewController.swift in Sources */,
 				69F99672293B2E5D00D3C0D4 /* CalendarView.swift in Sources */,
+				ADD6841B2946BCDC007C6355 /* StorageManager.swift in Sources */,
 				D65F58242933171300DE7F2F /* SignUpViewController.swift in Sources */,
 				69DB85FB2941082600E0095A /* PostViewModel.swift in Sources */,
 				69DB860129423F0300E0095A /* AppointmentListView.swift in Sources */,
