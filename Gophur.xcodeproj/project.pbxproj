@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52C5663A2946B6270013B7A5 /* Core in Resources */ = {isa = PBXBuildFile; fileRef = 52C566392946B6270013B7A5 /* Core */; };
+		52C5663E2946B6820013B7A5 /* ContentViewNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C5663D2946B6820013B7A5 /* ContentViewNew.swift */; };
 		69129861293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69129860293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift */; };
 		69129863293C2BB700C5CA2B /* PostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69129862293C2BB700C5CA2B /* PostHeaderTableViewCell.swift */; };
 		69129866293D7D6000C5CA2B /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69129865293D7D6000C5CA2B /* FriendsView.swift */; };
@@ -49,6 +51,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52C566392946B6270013B7A5 /* Core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Core; path = ../../../Desktop/GopherUI/GopherUI/Core; sourceTree = "<group>"; };
+		52C5663D2946B6820013B7A5 /* ContentViewNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewNew.swift; sourceTree = "<group>"; };
 		69129860293C2B6E00C5CA2B /* PostPreviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPreviewTableViewCell.swift; sourceTree = "<group>"; };
 		69129862293C2BB700C5CA2B /* PostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		69129865293D7D6000C5CA2B /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
@@ -189,6 +193,7 @@
 		D6C2F9832930813B008146D3 /* Gophur */ = {
 			isa = PBXGroup;
 			children = (
+				52C566392946B6270013B7A5 /* Core */,
 				69DB864129424B1B00E0095A /* Map */,
 				69DB85F12941076100E0095A /* Business Profile */,
 				A55DC49B293EBD95003F6CF4 /* Scheduling UIS */,
@@ -196,6 +201,7 @@
 				D65F58252933171C00DE7F2F /* View Controllers */,
 				D6C2F9842930813B008146D3 /* GophurApp.swift */,
 				D6C2F9862930813B008146D3 /* ContentView.swift */,
+				52C5663D2946B6820013B7A5 /* ContentViewNew.swift */,
 				6912985F293C2B3200C5CA2B /* Cells */,
 				D6C2F99C29309035008146D3 /* LoginSignup.storyboard */,
 				D6C2F9932930824E008146D3 /* GoogleService-Info.plist */,
@@ -290,6 +296,7 @@
 				D6C2F98C2930813C008146D3 /* Preview Assets.xcassets in Resources */,
 				D6C2F9892930813C008146D3 /* Assets.xcassets in Resources */,
 				D6C2F99D29309035008146D3 /* LoginSignup.storyboard in Resources */,
+				52C5663A2946B6270013B7A5 /* Core in Resources */,
 				D6C2F9942930824E008146D3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +335,7 @@
 				69DB85F7294107E400E0095A /* BusinessProfileHeader.swift in Sources */,
 				D6C2F9872930813B008146D3 /* ContentView.swift in Sources */,
 				D6C2F9852930813B008146D3 /* GophurApp.swift in Sources */,
+				52C5663E2946B6820013B7A5 /* ContentViewNew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
