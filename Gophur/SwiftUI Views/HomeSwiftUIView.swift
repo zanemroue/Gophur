@@ -24,7 +24,7 @@ struct HomeSwiftUIView: View {
 
             FriendsView().tabItem { Image(systemName: "person.3.fill") }.tag(1)
 
-            FeedView1()
+            FeedView1(posts:[])
 
                 .tabItem { Image(systemName:
 
