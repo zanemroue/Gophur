@@ -11,5 +11,5 @@ import Foundation
 struct Post: Identifiable {
     let id: Int
     let imageName: String
-    
+    let caption: String
 }
