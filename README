@@ -9,7 +9,7 @@ Trieu Tran          trieut@bu.edu
 
 
 YOUTUBE LINK:
-
+https://youtu.be/mXu9bGMpYZc
 
 Overview:
 Gophur is an innovative social media tool that allows businesses and consumers to connect with one another on a personal level. 
@@ -23,3 +23,5 @@ Thank you!
 -Team Gopher
 
 Build:
+Load up the application using XCode on any system with macOS installed. The simulation should be able to launch and the app will run. We are planning
+for a hard launch on the App Store soon once we clean up some minor bugs!
