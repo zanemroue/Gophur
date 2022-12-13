@@ -208,7 +208,7 @@ extension ProfileView1 {
         ScrollView {
             LazyVStack {
                 ForEach(0 ... 9, id: \.self) { _ in
-                    GopherRowView1()
+                    GopherRowView1(image: UIImage(systemName:"bookmark")!,caption:"test")
                         .padding()
                 }
             }
