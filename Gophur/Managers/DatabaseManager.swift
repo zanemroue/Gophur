@@ -5,6 +5,7 @@
 //  Created by Hilario Gonzalez on 12/11/22.
 //
 
+//This file defines a DatabaseManager class, which provides methods for interacting with a Firebase Firestore database. The class has a shared instance that can be used to access the database, and it provides methods for inserting and retrieving data from the database. It also has a private initializer to prevent other instances of the class from being created.
 import Foundation
 import FirebaseFirestore
 
